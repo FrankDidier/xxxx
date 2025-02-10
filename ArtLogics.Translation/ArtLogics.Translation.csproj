@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BCD5DB35-22CA-4A2F-920B-C674DFFBAC6B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ArtLogics.Translation</RootNamespace>
+    <AssemblyName>ArtLogics.Translation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Mvvm.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v22.2.Export, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="INIFileParser, Version=2.5.2.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c, processorArchitecture=MSIL">
+      <HintPath>..\packages\ini-parser.2.5.2\lib\net20\INIFileParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Mathtone.MIST, Version=2.5.6014.39541, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mathtone.MIST.2.5.2\lib\net46\Mathtone.MIST.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.5.11\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ViewModel\ErrorDisplayerViewModel.cs" />
+    <Compile Include="ViewModel\IniViewModel.cs" />
+    <Compile Include="ViewModel\InputViewModel.cs" />
+    <Compile Include="ViewModel\MainFromViewModel.cs" />
+    <Compile Include="ViewModel\ParserType.cs" />
+    <Compile Include="ViewModel\RessourcesViewModel.cs" />
+    <Compile Include="View\ErrorDisplayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ErrorDisplayer.Designer.cs">
+      <DependentUpon>ErrorDisplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\IniView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\IniView.Designer.cs">
+      <DependentUpon>IniView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\InputsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\InputsView.Designer.cs">
+      <DependentUpon>InputsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\RessourcesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\RessourcesView.Designer.cs">
+      <DependentUpon>RessourcesView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\ErrorDisplayer.resx">
+      <DependentUpon>ErrorDisplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ErrorDisplayer.zh-CN.resx">
+      <DependentUpon>ErrorDisplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\IniView.resx">
+      <DependentUpon>IniView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\InputsView.resx">
+      <DependentUpon>InputsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\InputsView.zh-CN.resx">
+      <DependentUpon>InputsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\MainForm.zh-CN.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RessourcesView.resx">
+      <DependentUpon>RessourcesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="config.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ArtLogics.Common.Extensions\ArtLogics.TestSuite.Extensions.csproj">
+      <Project>{f35112f5-0584-420b-bef1-c435ad24dc4c}</Project>
+      <Name>ArtLogics.TestSuite.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.Configuration\ArtLogics.TestSuite.Configuration.csproj">
+      <Project>{ea41fb05-74ea-451f-ac70-707ff17b36be}</Project>
+      <Name>ArtLogics.TestSuite.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.Services\ArtLogics.TestSuite.Services.csproj">
+      <Project>{58972efe-7678-47f0-96c0-cadc5cd3cbb7}</Project>
+      <Name>ArtLogics.TestSuite.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Actions\ArtLogics.TestSuite.Actions.csproj">
+      <Project>{6b5b0cb5-312f-4dff-894b-02fc455be010}</Project>
+      <Name>ArtLogics.TestSuite.Actions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Common\ArtLogics.TestSuite.Common.csproj">
+      <Project>{dfe778ef-eb77-4787-bbb1-1ce62f4c181d}</Project>
+      <Name>ArtLogics.TestSuite.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Devices\ArtLogics.TestSuite.Boards.csproj">
+      <Project>{4de580f2-3f11-4c24-b319-437875087dd3}</Project>
+      <Name>ArtLogics.TestSuite.Boards</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.DevXlate\ArtLogics.TestSuite.DevXlate.csproj">
+      <Project>{0cca2999-106b-419a-9927-f5fa3180639d}</Project>
+      <Name>ArtLogics.TestSuite.DevXlate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Lexical\ArtLogics.TestSuite.Lexical.csproj">
+      <Project>{076c6822-f170-4b6d-a3a5-6048b56135ac}</Project>
+      <Name>ArtLogics.TestSuite.Lexical</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Limits\ArtLogics.TestSuite.Limits.csproj">
+      <Project>{afcb6fd5-3177-4d2a-888f-36bcd9832c22}</Project>
+      <Name>ArtLogics.TestSuite.Limits</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Mission\ArtLogics.TestSuite.Missions.csproj">
+      <Project>{00114e82-8e6e-4db7-8677-40dac67c2a7a}</Project>
+      <Name>ArtLogics.TestSuite.Missions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Operation\ArtLogics.TestSuite.Operations.csproj">
+      <Project>{58c27d94-f8d9-4e6b-ac60-fd184747648a}</Project>
+      <Name>ArtLogics.TestSuite.Operations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Sequence\ArtLogics.TestSuite.Sequences.csproj">
+      <Project>{65b26d38-5257-45b5-b814-a2f0489b8d41}</Project>
+      <Name>ArtLogics.TestSuite.Sequences</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Shared\ArtLogics.TestSuite.Shared.csproj">
+      <Project>{efabee46-3467-4bb3-a27c-7324f3c385f0}</Project>
+      <Name>ArtLogics.TestSuite.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Statemachine\ArtLogics.TestSuite.StateMachines.csproj">
+      <Project>{8b84ed56-b5ee-458f-8e1c-a029e69c75e7}</Project>
+      <Name>ArtLogics.TestSuite.StateMachines</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Testing.Actions\ArtLogics.TestSuite.Testing.Actions.csproj">
+      <Project>{7cf7cce8-630b-40a6-bc24-476e9ce5934e}</Project>
+      <Name>ArtLogics.TestSuite.Testing.Actions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Testing\ArtLogics.TestSuite.Testing.csproj">
+      <Project>{67498efa-91fe-413e-b246-d6b28280c7fd}</Project>
+      <Name>ArtLogics.TestSuite.Testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.TestResult\ArtLogics.TestSuite.TestResults.csproj">
+      <Project>{31DEAF23-E4C4-4022-B9DB-A13C5D96F7F7}</Project>
+      <Name>ArtLogics.TestSuite.TestResults</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.User.Actions\ArtLogics.TestSuite.Testing.Actions.User.csproj">
+      <Project>{7af6d65a-fdde-4991-aea6-d6f6c02449e2}</Project>
+      <Name>ArtLogics.TestSuite.Testing.Actions.User</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Workspace\ArtLogics.TestSuite.Environment.csproj">
+      <Project>{26cadead-ac55-41c9-98bf-d74d13b249d7}</Project>
+      <Name>ArtLogics.TestSuite.Environment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\externals\CommonModels\ArtLogics.Common.GlobalVar\ArtLogics.Common.GlobalVariable\ArtLogics.Common.GlobalVariable.csproj">
+      <Project>{32174f4e-9940-44e6-ad2f-8220f4bad9ca}</Project>
+      <Name>ArtLogics.Common.GlobalVariable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\externals\CommonModels\ArtLogics.Common.Ui.Resources\ArtLogics.Common.Ui.Resources\ArtLogics.Common.Ui.Resources\ArtLogics.Common.Ui.Resources.csproj">
+      <Project>{44608986-a141-45a3-92a6-ef1b1633db1e}</Project>
+      <Name>ArtLogics.Common.Ui.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\externals\CommonModels\ArtLogics.Common.UserManagements\ArtLogics.Common.UserManagements\ArtLogics.Common.UserManagements.csproj">
+      <Project>{fd26a503-9d90-4bad-9f80-0d9b309c9d1f}</Project>
+      <Name>ArtLogics.Common.UserManagements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\externals\CommonModels\ArtLogics.Common.Utilities\ArtLogics.Common.Utilities.Database\ArtLogics.TestSuite.Serialization.csproj">
+      <Project>{aa923c43-fe04-48dd-a6f4-7938add9c0d5}</Project>
+      <Name>ArtLogics.TestSuite.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\externals\Licensing\ARTlogics.TestSuite.Licensing\ARTlogics.Common.Licensing.csproj">
+      <Project>{58770cf2-8c82-4bb8-8cbf-ab015808922f}</Project>
+      <Name>ARTlogics.Common.Licensing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArtLogics.Translation.Parser\ArtLogics.Translation.Parser.csproj">
+      <Project>{B184A3D6-4DE6-43B4-9333-EDC6FF671BBB}</Project>
+      <Name>ArtLogics.Translation.Parser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_china.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag_UK.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <UsingTask TaskName="Mathtone.MIST.NotificationWeaverBuildTask" AssemblyFile="..\packages\Mathtone.MIST.2.5.2\tools\net46\Mathtone.MIST.Builder.dll" />
+  <Target Name="AfterBuild">
+    <NotificationWeaverBuildTask TargetPath="$(TargetPath)" DebugMode="True" />
+  </Target>
+</Project>

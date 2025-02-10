@@ -1,0 +1,13 @@
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.csproj.AssemblyReference.cache
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.View.ErrorDisplayer.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.View.IniView.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.View.InputsView.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.View.MainForm.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.Properties.Resources.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.View.RessourcesView.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.View.ErrorDisplayer.zh-CN.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.View.InputsView.zh-CN.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.View.MainForm.zh-CN.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.csproj.GenerateResource.cache
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.exe.licenses
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation\obj\Debug\ArtLogics.Translation.csproj.CoreCompileInputs.cache

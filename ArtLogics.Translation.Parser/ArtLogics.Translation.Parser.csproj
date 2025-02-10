@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B184A3D6-4DE6-43B4-9333-EDC6FF671BBB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ArtLogics.Translation.Parser</RootNamespace>
+    <AssemblyName>ArtLogics.Translation.Parser</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArtLogics.TestSuite.GlobalVariables, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ArtLogics.Common.GlobalVariable\bin\Debug\ArtLogics.TestSuite.GlobalVariables.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.5.2.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.2.1\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="INIFileParser, Version=2.5.2.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c, processorArchitecture=MSIL">
+      <HintPath>..\packages\ini-parser.2.5.2\lib\net20\INIFileParser.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.5.11\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseParser.cs" />
+    <Compile Include="Exception\ParserException.cs" />
+    <Compile Include="Exception\ParserExceptionMode.cs" />
+    <Compile Include="Exception\ParserExceptionType.cs" />
+    <Compile Include="Interfaces\IParser.cs" />
+    <Compile Include="Model\Extension.cs" />
+    <Compile Include="Model\ExtensionType.cs" />
+    <Compile Include="Model\IniChannelConfiguration.cs" />
+    <Compile Include="Model\IniFile.cs" />
+    <Compile Include="Model\ProjectConfiguration.cs" />
+    <Compile Include="Model\Resources.cs" />
+    <Compile Include="Model\RessourceType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\ExcelUtilsFunction.cs" />
+    <Compile Include="Utils\ProjectUtilGlobalVariableFunction.cs" />
+    <Compile Include="Utils\ProjectUtilsCanFunction.cs" />
+    <Compile Include="Utils\ProjectUtilsFunction.cs" />
+    <Compile Include="Utils\ProjectUtilsLimitFunction.cs" />
+    <Compile Include="Utils\StringUtils.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="template\reportTemplate.repx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ArtLogics.Common.Extensions\ArtLogics.TestSuite.Extensions.csproj">
+      <Project>{F35112F5-0584-420B-BEF1-C435AD24DC4C}</Project>
+      <Name>ArtLogics.TestSuite.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Actions\ArtLogics.TestSuite.Actions.csproj">
+      <Project>{6B5B0CB5-312F-4DFF-894B-02FC455BE010}</Project>
+      <Name>ArtLogics.TestSuite.Actions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Devices\ArtLogics.TestSuite.Boards.csproj">
+      <Project>{4DE580F2-3F11-4C24-B319-437875087DD3}</Project>
+      <Name>ArtLogics.TestSuite.Boards</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.DevXlate\ArtLogics.TestSuite.DevXlate.csproj">
+      <Project>{0CCA2999-106B-419A-9927-F5FA3180639D}</Project>
+      <Name>ArtLogics.TestSuite.DevXlate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Limits\ArtLogics.TestSuite.Limits.csproj">
+      <Project>{AFCB6FD5-3177-4D2A-888F-36BCD9832C22}</Project>
+      <Name>ArtLogics.TestSuite.Limits</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Operation\ArtLogics.TestSuite.Operations.csproj">
+      <Project>{58C27D94-F8D9-4E6B-AC60-FD184747648A}</Project>
+      <Name>ArtLogics.TestSuite.Operations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Shared\ArtLogics.TestSuite.Shared.csproj">
+      <Project>{EFABEE46-3467-4BB3-A27C-7324F3C385F0}</Project>
+      <Name>ArtLogics.TestSuite.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Statemachine\ArtLogics.TestSuite.StateMachines.csproj">
+      <Project>{8B84ED56-B5EE-458F-8E1C-A029E69C75E7}</Project>
+      <Name>ArtLogics.TestSuite.StateMachines</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Testing.Actions.Report\ArtLogics.TestSuite.Testing.Actions.Report.csproj">
+      <Project>{B7F104E0-B1D6-4DF3-B575-09EE1E27A1A1}</Project>
+      <Name>ArtLogics.TestSuite.Testing.Actions.Report</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Testing.Actions\ArtLogics.TestSuite.Testing.Actions.csproj">
+      <Project>{7CF7CCE8-630B-40A6-BC24-476E9CE5934E}</Project>
+      <Name>ArtLogics.TestSuite.Testing.Actions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Testing\ArtLogics.TestSuite.Testing.csproj">
+      <Project>{67498EFA-91FE-413E-B246-D6B28280C7FD}</Project>
+      <Name>ArtLogics.TestSuite.Testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.TestResult\ArtLogics.TestSuite.TestResults.csproj">
+      <Project>{31DEAF23-E4C4-4022-B9DB-A13C5D96F7F7}</Project>
+      <Name>ArtLogics.TestSuite.TestResults</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.User.Actions\ArtLogics.TestSuite.Testing.Actions.User.csproj">
+      <Project>{7AF6D65A-FDDE-4991-AEA6-D6F6C02449E2}</Project>
+      <Name>ArtLogics.TestSuite.Testing.Actions.User</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ArtLogics.TestSuite.Workspace\ArtLogics.TestSuite.Environment.csproj">
+      <Project>{26CADEAD-AC55-41C9-98BF-D74D13B249D7}</Project>
+      <Name>ArtLogics.TestSuite.Environment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\externals\CommonModels\ArtLogics.Common.Utilities\ArtLogics.Common.Utilities.Database\ArtLogics.TestSuite.Serialization.csproj">
+      <Project>{AA923C43-FE04-48DD-A6F4-7938ADD9C0D5}</Project>
+      <Name>ArtLogics.TestSuite.Serialization</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sound\Sound.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

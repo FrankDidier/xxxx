@@ -1,0 +1,199 @@
+.
+./.DS_Store
+./ArtLogics.Translation
+./ArtLogics.Translation/ViewModel
+./ArtLogics.Translation/ViewModel/MainFromViewModel.cs
+./ArtLogics.Translation/ViewModel/ErrorDisplayerViewModel.cs
+./ArtLogics.Translation/ViewModel/InputViewModel.cs
+./ArtLogics.Translation/ViewModel/IniViewModel.cs
+./ArtLogics.Translation/ViewModel/ParserType.cs
+./ArtLogics.Translation/ViewModel/RessourcesViewModel.cs
+./ArtLogics.Translation/obj
+./ArtLogics.Translation/obj/Debug
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.View.InputsView.zh-CN.resources
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.csproj.CoreCompileInputs.cache
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.View.RessourcesView.resources
+./ArtLogics.Translation/obj/Debug/.NETFramework,Version=v4.6.2.AssemblyAttributes.cs
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.View.ErrorDisplayer.zh-CN.resources
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.View.MainForm.resources
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.csproj.FileListAbsolute.txt
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.csproj.GenerateResource.cache
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.View.MainForm.zh-CN.resources
+./ArtLogics.Translation/obj/Debug/artlogics.translation.exe.licenses
+./ArtLogics.Translation/obj/Debug/TempPE
+./ArtLogics.Translation/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.View.InputsView.resources
+./ArtLogics.Translation/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.View.ErrorDisplayer.resources
+./ArtLogics.Translation/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.csproj.AssemblyReference.cache
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.View.IniView.resources
+./ArtLogics.Translation/obj/Debug/ArtLogics.Translation.Properties.Resources.resources
+./ArtLogics.Translation/.DS_Store
+./ArtLogics.Translation/bin
+./ArtLogics.Translation/bin/.DS_Store
+./ArtLogics.Translation/bin/Debug
+./ArtLogics.Translation/Resources
+./ArtLogics.Translation/Resources/Flag_UK.png
+./ArtLogics.Translation/Resources/flag_china.png
+./ArtLogics.Translation/ArtLogics.Translation.csproj
+./ArtLogics.Translation/config.ini
+./ArtLogics.Translation/App.config
+./ArtLogics.Translation/Properties
+./ArtLogics.Translation/Properties/AssemblyInfo.cs
+./ArtLogics.Translation/Properties/Settings.Designer.cs
+./ArtLogics.Translation/Properties/Resources.resx
+./ArtLogics.Translation/Properties/Settings.settings
+./ArtLogics.Translation/Properties/Resources.Designer.cs
+./ArtLogics.Translation/Properties/licenses.licx
+./ArtLogics.Translation/packages.config
+./ArtLogics.Translation/View
+./ArtLogics.Translation/View/IniView.cs
+./ArtLogics.Translation/View/IniVIew.Designer.cs
+./ArtLogics.Translation/View/MainForm.zh-CN.resx
+./ArtLogics.Translation/View/InputsView.Designer.cs
+./ArtLogics.Translation/View/MainForm.Designer.cs
+./ArtLogics.Translation/View/MainForm.cs
+./ArtLogics.Translation/View/MainForm.resx
+./ArtLogics.Translation/View/InputsView.zh-CN.resx
+./ArtLogics.Translation/View/ErrorDisplayer.Designer.cs
+./ArtLogics.Translation/View/InputsView.cs
+./ArtLogics.Translation/View/RessourcesView.cs
+./ArtLogics.Translation/View/InputsView.resx
+./ArtLogics.Translation/View/IniView.resx
+./ArtLogics.Translation/View/ErrorDisplayer.resx
+./ArtLogics.Translation/View/ErrorDisplayer.zh-CN.resx
+./ArtLogics.Translation/View/ErrorDisplayer.cs
+./ArtLogics.Translation/View/RessourcesView.resx
+./ArtLogics.Translation/View/RessourcesView.Designer.cs
+./ArtLogics.Translation/Program.cs
+./ArtLogics.Translation.sln
+./.vs
+./.vs/ArtLogics.Translation
+./.vs/ArtLogics.Translation/.DS_Store
+./.vs/ArtLogics.Translation/v16
+./.vs/ArtLogics.Translation/v16/.suo
+./.vs/ArtLogics.Translation/FileContentIndex
+./.vs/ArtLogics.Translation/FileContentIndex/2f3ac1be-c170-4034-9a09-5bc4765c7b6d.vsidx
+./.vs/ArtLogics.Translation/FileContentIndex/read.lock
+./.vs/ArtLogics.Translation/FileContentIndex/merges
+./.vs/ArtLogics.Translation/FileContentIndex/b1423f3e-3294-4d32-98fe-98e7c0a5d49d.vsidx
+./.vs/ArtLogics.Translation/v17
+./.vs/ArtLogics.Translation/v17/.suo
+./.vs/ArtLogics.Translation/v17/fileList.bin
+./ArtLogics.Translation.Parser
+./ArtLogics.Translation.Parser/obj
+./ArtLogics.Translation.Parser/obj/.DS_Store
+./ArtLogics.Translation.Parser/obj/Debug
+./ArtLogics.Translation.Parser/obj/Debug/ArtLogics.Translation.Parser.Properties.Resources.resources
+./ArtLogics.Translation.Parser/obj/Debug/ArtLogics.Translation.Parser.csproj.FileListAbsolute.txt
+./ArtLogics.Translation.Parser/obj/Debug/ArtLogics.Translation.Parser.csproj.AssemblyReference.cache
+./ArtLogics.Translation.Parser/obj/Debug/.NETFramework,Version=v4.6.2.AssemblyAttributes.cs
+./ArtLogics.Translation.Parser/obj/Debug/TempPE
+./ArtLogics.Translation.Parser/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+./ArtLogics.Translation.Parser/obj/Debug/ArtLogics.Translation.Parser.csproj.GenerateResource.cache
+./ArtLogics.Translation.Parser/obj/Debug/ArtLogics.Translation.Parser.csproj.CoreCompileInputs.cache
+./ArtLogics.Translation.Parser/.DS_Store
+./ArtLogics.Translation.Parser/bin
+./ArtLogics.Translation.Parser/bin/Debug
+./ArtLogics.Translation.Parser/ArtLogics.Translation.Parser.csproj
+./ArtLogics.Translation.Parser/BaseParser.cs
+./ArtLogics.Translation.Parser/template
+./ArtLogics.Translation.Parser/template/reportTemplate.repx
+./ArtLogics.Translation.Parser/Utils
+./ArtLogics.Translation.Parser/Utils/StringUtils.cs
+./ArtLogics.Translation.Parser/Utils/ProjectUtilsFunction.cs
+./ArtLogics.Translation.Parser/Utils/ExcelUtilsFunction.cs
+./ArtLogics.Translation.Parser/Utils/ProjectUtilsLimitFunction.cs
+./ArtLogics.Translation.Parser/Utils/ProjectUtilGlobalVariableFunction.cs
+./ArtLogics.Translation.Parser/Utils/ProjectUtilsCanFunction.cs
+./ArtLogics.Translation.Parser/App.config
+./ArtLogics.Translation.Parser/Properties
+./ArtLogics.Translation.Parser/Properties/AssemblyInfo.cs
+./ArtLogics.Translation.Parser/Properties/Settings.Designer.cs
+./ArtLogics.Translation.Parser/Properties/Resources.resx
+./ArtLogics.Translation.Parser/Properties/Settings.settings
+./ArtLogics.Translation.Parser/Properties/Resources.Designer.cs
+./ArtLogics.Translation.Parser/packages.config
+./ArtLogics.Translation.Parser/Model
+./ArtLogics.Translation.Parser/Model/IniFile.cs
+./ArtLogics.Translation.Parser/Model/ExtensionType.cs
+./ArtLogics.Translation.Parser/Model/ProjectConfiguration.cs
+./ArtLogics.Translation.Parser/Model/IniChannelConfiguration.cs
+./ArtLogics.Translation.Parser/Model/RessourceType.cs
+./ArtLogics.Translation.Parser/Model/Extension.cs
+./ArtLogics.Translation.Parser/Model/Resources.cs
+./ArtLogics.Translation.Parser/Sound
+./ArtLogics.Translation.Parser/Sound/Sound.wav
+./ArtLogics.Translation.Parser/Exception
+./ArtLogics.Translation.Parser/Exception/ParserExceptionType.cs
+./ArtLogics.Translation.Parser/Exception/ParserException.cs
+./ArtLogics.Translation.Parser/Exception/ParserExceptionMode.cs
+./ArtLogics.Translation.Parser/Interfaces
+./ArtLogics.Translation.Parser/Interfaces/IParser.cs
+./Customer custom parsers
+./Customer custom parsers/.DS_Store
+./Customer custom parsers/ActiaParser
+./Customer custom parsers/ActiaParser/.DS_Store
+./Customer custom parsers/ActiaParser/ActiaParser
+./Customer custom parsers/ActiaParser/ActiaParser/obj
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/CustomParser.csproj.FileListAbsolute.txt
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/CustomParser.csproj.CoreCompileInputs.cache
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/CustomParser.csproj.GenerateResource.cache
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/ActiaParser.Resources.lang.zh-CN.resources
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/.NETFramework,Version=v4.6.2.AssemblyAttributes.cs
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/TempPE
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/ActiaParser.Properties.Resources.resources
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/CustomParser.csproj.AssemblyReference.cache
+./Customer custom parsers/ActiaParser/ActiaParser/obj/Debug/ActiaParser.Resources.lang.resources
+./Customer custom parsers/ActiaParser/ActiaParser/.DS_Store
+./Customer custom parsers/ActiaParser/ActiaParser/Define
+./Customer custom parsers/ActiaParser/ActiaParser/Define/ParserStaticVariable.cs
+./Customer custom parsers/ActiaParser/ActiaParser/bin
+./Customer custom parsers/ActiaParser/ActiaParser/bin/Debug
+./Customer custom parsers/ActiaParser/ActiaParser/MessageParser
+./Customer custom parsers/ActiaParser/ActiaParser/MessageParser/MessageParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/Resources
+./Customer custom parsers/ActiaParser/ActiaParser/Resources/lang.zh-CN.resx
+./Customer custom parsers/ActiaParser/ActiaParser/Resources/lang.resx
+./Customer custom parsers/ActiaParser/ActiaParser/Resources/lang.Designer.cs
+./Customer custom parsers/ActiaParser/ActiaParser/CustomParser.csproj
+./Customer custom parsers/ActiaParser/ActiaParser/App.config
+./Customer custom parsers/ActiaParser/ActiaParser/Properties
+./Customer custom parsers/ActiaParser/ActiaParser/Properties/AssemblyInfo.cs
+./Customer custom parsers/ActiaParser/ActiaParser/Properties/Settings.Designer.cs
+./Customer custom parsers/ActiaParser/ActiaParser/Properties/Resources.resx
+./Customer custom parsers/ActiaParser/ActiaParser/Properties/Settings.settings
+./Customer custom parsers/ActiaParser/ActiaParser/Properties/Resources.Designer.cs
+./Customer custom parsers/ActiaParser/ActiaParser/packages.config
+./Customer custom parsers/ActiaParser/ActiaParser/Parser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ResourcesParser
+./Customer custom parsers/ActiaParser/ActiaParser/ResourcesParser/ChannelInputInterpretations.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ResourcesParser/ChannelInputInfo.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ResourcesParser/ChannelOutputInfo.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ResourcesParser/ChannelInputInterpretation.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ResourcesParser/ResourcesParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/KeywordParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/TestParameters.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/ConditionsParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/OverloadParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/StepperGaugesParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/SymbolsParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/InputParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/ActionParserBase.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/AdditionnalTestParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/StartStateParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/AlarmParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/KeywordsEnumList.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/LedParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/ActionParser.cs
+./Customer custom parsers/ActiaParser/ActiaParser/ActionParser/ChannelActionContainersCompare.cs
+./Customer custom parsers/ActiaParser/.vs
+./Customer custom parsers/ActiaParser/.vs/ActiaParser
+./Customer custom parsers/ActiaParser/.vs/ActiaParser/v16
+./Customer custom parsers/ActiaParser/.vs/ActiaParser/v16/.suo
+./Customer custom parsers/ActiaParser/ActiaParser.sln
+./file_paths.txt

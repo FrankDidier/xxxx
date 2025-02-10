@@ -1,0 +1,6 @@
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\Customer custom parsers\ActiaParser\ActiaParser\obj\Debug\CustomParser.csproj.AssemblyReference.cache
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\Customer custom parsers\ActiaParser\ActiaParser\obj\Debug\ActiaParser.Properties.Resources.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\Customer custom parsers\ActiaParser\ActiaParser\obj\Debug\ActiaParser.Resources.lang.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\Customer custom parsers\ActiaParser\ActiaParser\obj\Debug\ActiaParser.Resources.lang.zh-CN.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\Customer custom parsers\ActiaParser\ActiaParser\obj\Debug\CustomParser.csproj.GenerateResource.cache
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\Customer custom parsers\ActiaParser\ActiaParser\obj\Debug\CustomParser.csproj.CoreCompileInputs.cache

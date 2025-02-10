@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AndGetResult" xml:space="preserve">
+    <value>and Get result</value>
+  </data>
+  <data name="AndStopCapture" xml:space="preserve">
+    <value>and STOP capture</value>
+  </data>
+  <data name="At" xml:space="preserve">
+    <value>at</value>
+  </data>
+  <data name="AtCell" xml:space="preserve">
+    <value>at cell</value>
+  </data>
+  <data name="AtLine" xml:space="preserve">
+    <value>at line</value>
+  </data>
+  <data name="ChannelAction" xml:space="preserve">
+    <value>Channel action</value>
+  </data>
+  <data name="ChannelActionAfterCapture" xml:space="preserve">
+    <value>Channel Action after capture</value>
+  </data>
+  <data name="ChannelActionCapture" xml:space="preserve">
+    <value>Channel Action Capture</value>
+  </data>
+  <data name="ChannelActionCaptureHighLowStart" xml:space="preserve">
+    <value>Channel Action Capture HIGHLOW START</value>
+  </data>
+  <data name="ChannelActionCaptureHighLowStop" xml:space="preserve">
+    <value>Channel Action Capture HIGHLOW STOP</value>
+  </data>
+  <data name="ChannelActionCaptureMaxStart" xml:space="preserve">
+    <value>Channel Action Capture MAX START</value>
+  </data>
+  <data name="ChannelActionCaptureMaxStop" xml:space="preserve">
+    <value>Channel Action Capture MAX STOP</value>
+  </data>
+  <data name="ChannelActionOverloadDelay" xml:space="preserve">
+    <value>Channel Action Overload delay</value>
+  </data>
+  <data name="ChannelActionOverloadMaxTest" xml:space="preserve">
+    <value>Channel Action Overload Max Test</value>
+  </data>
+  <data name="ChannelActionOverloadMaxTestReset" xml:space="preserve">
+    <value>Channel Action Overload Max Test Reset</value>
+  </data>
+  <data name="ChannelActionOverloadMaxTestSetup" xml:space="preserve">
+    <value>Channel Action Overload Max Test Setup</value>
+  </data>
+  <data name="ChannelActionOverloadModeStart" xml:space="preserve">
+    <value>Channel Action Overload Mode Start</value>
+  </data>
+  <data name="ChannelActionOverloadModeStop" xml:space="preserve">
+    <value>Channel Action Overload Mode Stop</value>
+  </data>
+  <data name="ChannelActionOverloadRatingTest" xml:space="preserve">
+    <value>Channel Action Overload Rating Test</value>
+  </data>
+  <data name="ChannelActionOverloadRatingTestReset" xml:space="preserve">
+    <value>Channel Action Overload Rating Test Reset</value>
+  </data>
+  <data name="ChannelActionOverloadRatingTestSetup" xml:space="preserve">
+    <value>Channel Action Overload Rating Test Setup</value>
+  </data>
+  <data name="ChannelActionReset" xml:space="preserve">
+    <value>Channel Action reset</value>
+  </data>
+  <data name="ChannelActionResetPrerequire" xml:space="preserve">
+    <value>Channel Action reset prerequire</value>
+  </data>
+  <data name="ChannelActionResult" xml:space="preserve">
+    <value>Channel Action Result</value>
+  </data>
+  <data name="ChannelActionSetPrerequire" xml:space="preserve">
+    <value>Channel Action Set prerequire</value>
+  </data>
+  <data name="ChannelActionSetter" xml:space="preserve">
+    <value>Channel Action Setter</value>
+  </data>
+  <data name="ChannelActionStart" xml:space="preserve">
+    <value>Channel Action start</value>
+  </data>
+  <data name="ChannelActionStop" xml:space="preserve">
+    <value>Channel Action stop</value>
+  </data>
+  <data name="CounterItShouldHaveIncreaseBy1Km" xml:space="preserve">
+    <value>counter it should have increase by 1Km</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="DelayAfter" xml:space="preserve">
+    <value>Delay after</value>
+  </data>
+  <data name="DelayAfterPrerequire" xml:space="preserve">
+    <value>Delay after set prerequire</value>
+  </data>
+  <data name="DelayAfterPrerquireNone" xml:space="preserve">
+    <value>Delay after set prerequire to NONE on test line</value>
+  </data>
+  <data name="DelayBeforeCheckingCanForward" xml:space="preserve">
+    <value>Delay before checking CAN forward</value>
+  </data>
+  <data name="DelayBeforeTestingMessage" xml:space="preserve">
+    <value>Delay before testing message</value>
+  </data>
+  <data name="DelayBetweenSetAndResultOf" xml:space="preserve">
+    <value>Delay between Set and result of</value>
+  </data>
+  <data name="DelayBetweenStopCapture" xml:space="preserve">
+    <value>Delay between STOP Capture</value>
+  </data>
+  <data name="DelayForCaptureMaxOf" xml:space="preserve">
+    <value>Delay for capture MAX of</value>
+  </data>
+  <data name="DelayForOdometer" xml:space="preserve">
+    <value>Delay for odometer</value>
+  </data>
+  <data name="DelayForOverloadCaptureAfter" xml:space="preserve">
+    <value>Delay for overload capture after</value>
+  </data>
+  <data name="DelayOf" xml:space="preserve">
+    <value>DELAY of</value>
+  </data>
+  <data name="DelaySartCapture" xml:space="preserve">
+    <value>Delay START Capture</value>
+  </data>
+  <data name="DelayWiperInterval" xml:space="preserve">
+    <value>Delay WIPER_INTERVAL</value>
+  </data>
+  <data name="DelayWiperWash" xml:space="preserve">
+    <value>Delay WIPER_WASH</value>
+  </data>
+  <data name="DelayWiperWashBeforeGettingResult" xml:space="preserve">
+    <value>Delay WIPER_WASH before getting result</value>
+  </data>
+  <data name="DoYou" xml:space="preserve">
+    <value>Do you</value>
+  </data>
+  <data name="ErrorInChannelID" xml:space="preserve">
+    <value>Error in channel ID</value>
+  </data>
+  <data name="ErrorTheVoltageSetIsTooHigh" xml:space="preserve">
+    <value>error the Voltage set is too high</value>
+  </data>
+  <data name="ErrorWithCanSender" xml:space="preserve">
+    <value>Error with can sender</value>
+  </data>
+  <data name="ForwaredCheckError" xml:space="preserve">
+    <value>forwared check error</value>
+  </data>
+  <data name="Hear" xml:space="preserve">
+    <value>hear</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>light</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="NoBoardFoundForThisChannel" xml:space="preserve">
+    <value>No board found for this channel</value>
+  </data>
+  <data name="PleaseCheckTheCluster" xml:space="preserve">
+    <value>Please check the cluster</value>
+  </data>
+  <data name="PleaseCheckTheClusterTimeAndCompareItWith" xml:space="preserve">
+    <value>Please check the cluster time and compare it with</value>
+  </data>
+  <data name="PleaseCheckTheClusterTimeAndCompareItWithYourWatch" xml:space="preserve">
+    <value>Please check the cluster time and compare it with your watch</value>
+  </data>
+  <data name="PsuAction" xml:space="preserve">
+    <value>Psu Action</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="ReceiveCanForward" xml:space="preserve">
+    <value>Receive CAN forward</value>
+  </data>
+  <data name="ResultOf" xml:space="preserve">
+    <value>Result of</value>
+  </data>
+  <data name="See" xml:space="preserve">
+    <value>see</value>
+  </data>
+  <data name="SendDefaultCanLoop" xml:space="preserve">
+    <value>Send Default CanLoop</value>
+  </data>
+  <data name="SendDM1Data1FrameForTest" xml:space="preserve">
+    <value>Send DM1 Data1 Frame for test</value>
+  </data>
+  <data name="SendDM1Data2FrameForTest" xml:space="preserve">
+    <value>Send DM1 Data2 Frame for test</value>
+  </data>
+  <data name="SendDM1FrameForTest" xml:space="preserve">
+    <value>Send DM1 Frame for test</value>
+  </data>
+  <data name="SendDM1HeaderFrameForTest" xml:space="preserve">
+    <value>Send DM1 Header Frame for test</value>
+  </data>
+  <data name="SetChannel" xml:space="preserve">
+    <value>Set channel</value>
+  </data>
+  <data name="SetDefaultValueFor" xml:space="preserve">
+    <value>Set default value for</value>
+  </data>
+  <data name="SetWiper" xml:space="preserve">
+    <value>SET wiper</value>
+  </data>
+  <data name="Signal" xml:space="preserve">
+    <value>signal</value>
+  </data>
+  <data name="START" xml:space="preserve">
+    <value>START</value>
+  </data>
+  <data name="StartCanLoop" xml:space="preserve">
+    <value>Start CanLoop</value>
+  </data>
+  <data name="StartDefaultCanLoop" xml:space="preserve">
+    <value>Start Default CanLoop</value>
+  </data>
+  <data name="STOP" xml:space="preserve">
+    <value>STOP</value>
+  </data>
+  <data name="StopCanLoop" xml:space="preserve">
+    <value>Stop CanLoop</value>
+  </data>
+  <data name="StopDefaultCanLoop" xml:space="preserve">
+    <value>Stop Default CanLoop</value>
+  </data>
+  <data name="TestCanSenderSignal" xml:space="preserve">
+    <value>Test can sender signal</value>
+  </data>
+  <data name="TheMessageHasNotBeenAssociatedToOneCanChannel" xml:space="preserve">
+    <value>The message has not been associated to one CAN channel</value>
+  </data>
+  <data name="TheMessageHasNotBeenAssociatedToOneCanChannelInSheet" xml:space="preserve">
+    <value>The message has not been associated to one CAN channel in sheet</value>
+  </data>
+  <data name="ThisRessourcesIsNotAvailableInYourProject" xml:space="preserve">
+    <value>This ressources is not available in your project</value>
+  </data>
+  <data name="With" xml:space="preserve">
+    <value>With</value>
+  </data>
+  <data name="WrongValueInSheet" xml:space="preserve">
+    <value>Wrong value in sheet</value>
+  </data>
+  <data name="YouShouldSee" xml:space="preserve">
+    <value>You should see</value>
+  </data>
+  <data name="YouShouldSeeThisLed" xml:space="preserve">
+    <value>You should see this Led</value>
+  </data>
+  <data name="YouShouldSeeThisSymbol" xml:space="preserve">
+    <value>You should see this Symbol</value>
+  </data>
+  <data name="AtRow" xml:space="preserve">
+    <value>at row</value>
+  </data>
+  <data name="DelayBeforeStartCapture" xml:space="preserve">
+    <value>Delay before start capture</value>
+  </data>
+  <data name="ResetDM1Data1FrameForTest" xml:space="preserve">
+    <value>Reset DM1 Data1 Frame for test</value>
+  </data>
+  <data name="ResetDM1Data2FrameForTest" xml:space="preserve">
+    <value>Reset DM1 Data2 Frame for test</value>
+  </data>
+  <data name="ResetDM1FrameForTest" xml:space="preserve">
+    <value>Reset DM1 Frame for test</value>
+  </data>
+  <data name="ResetDM1HeaderFrameForTest" xml:space="preserve">
+    <value>Reset DM1 Header Frame for test</value>
+  </data>
+  <data name="OpenResistiveChannels" xml:space="preserve">
+    <value>Open resistive channels</value>
+  </data>
+  <data name="DelayResetPrerequire" xml:space="preserve">
+    <value>Delay after reset prerequire on test line</value>
+  </data>
+  <data name="ConditionCannotBeTestedManually" xml:space="preserve">
+    <value>This condition cannot be tested because of high resitive range of</value>
+  </data>
+  <data name="PleaseTestItManually" xml:space="preserve">
+    <value>, please test it manually</value>
+  </data>
+  <data name="YouShould" xml:space="preserve">
+    <value>You should</value>
+  </data>
+  <data name="YouShouldNot" xml:space="preserve">
+    <value>You should not</value>
+  </data>
+</root>

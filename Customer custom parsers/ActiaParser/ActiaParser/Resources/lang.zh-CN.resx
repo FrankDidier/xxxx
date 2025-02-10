@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AndGetResult" xml:space="preserve">
+    <value>并得到结果</value>
+  </data>
+  <data name="AndStopCapture" xml:space="preserve">
+    <value>并停止捕获</value>
+  </data>
+  <data name="At" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="AtCell" xml:space="preserve">
+    <value>在细胞</value>
+  </data>
+  <data name="AtLine" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="ChannelAction" xml:space="preserve">
+    <value>频道行动</value>
+  </data>
+  <data name="ChannelActionAfterCapture" xml:space="preserve">
+    <value>捕获后的通道动作</value>
+  </data>
+  <data name="ChannelActionCapture" xml:space="preserve">
+    <value>频道动作捕捉</value>
+  </data>
+  <data name="ChannelActionCaptureHighLowStart" xml:space="preserve">
+    <value>通道操作捕获HIGHLOW启动</value>
+  </data>
+  <data name="ChannelActionCaptureHighLowStop" xml:space="preserve">
+    <value>通道动作捕捉HIGHLOW停止</value>
+  </data>
+  <data name="ChannelActionCaptureMaxStart" xml:space="preserve">
+    <value>通道动作捕捉MAX启动</value>
+  </data>
+  <data name="ChannelActionCaptureMaxStop" xml:space="preserve">
+    <value>通道动作捕捉MAX停止</value>
+  </data>
+  <data name="ChannelActionOverloadDelay" xml:space="preserve">
+    <value>通道操作过载延迟</value>
+  </data>
+  <data name="ChannelActionOverloadMaxTest" xml:space="preserve">
+    <value>通道操作重载最大测试</value>
+  </data>
+  <data name="ChannelActionOverloadMaxTestReset" xml:space="preserve">
+    <value>通道操作过载最大测试重置</value>
+  </data>
+  <data name="ChannelActionOverloadMaxTestSetup" xml:space="preserve">
+    <value>通道操作重载最大测试设置</value>
+  </data>
+  <data name="ChannelActionOverloadModeStart" xml:space="preserve">
+    <value>通道操作过载模式启动</value>
+  </data>
+  <data name="ChannelActionOverloadModeStop" xml:space="preserve">
+    <value>通道操作过载模式停止</value>
+  </data>
+  <data name="ChannelActionOverloadRatingTest" xml:space="preserve">
+    <value>通道动作过载额定值测试</value>
+  </data>
+  <data name="ChannelActionOverloadRatingTestReset" xml:space="preserve">
+    <value>通道动作过载额定值测试重置</value>
+  </data>
+  <data name="ChannelActionOverloadRatingTestSetup" xml:space="preserve">
+    <value>通道动作过载额定值测试设置</value>
+  </data>
+  <data name="ChannelActionReset" xml:space="preserve">
+    <value>频道操作重置</value>
+  </data>
+  <data name="ChannelActionResetPrerequire" xml:space="preserve">
+    <value>频道操作重置预先查询</value>
+  </data>
+  <data name="ChannelActionResult" xml:space="preserve">
+    <value>频道行动结果</value>
+  </data>
+  <data name="ChannelActionSetPrerequire" xml:space="preserve">
+    <value>频道行动设置预先查询</value>
+  </data>
+  <data name="ChannelActionSetter" xml:space="preserve">
+    <value>频道动作设定器</value>
+  </data>
+  <data name="ChannelActionStart" xml:space="preserve">
+    <value>频道操作开始</value>
+  </data>
+  <data name="ChannelActionStop" xml:space="preserve">
+    <value>频道动作停止</value>
+  </data>
+  <data name="CounterItShouldHaveIncreaseBy1Km" xml:space="preserve">
+    <value>反击它应该增加1公里</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>延迟</value>
+  </data>
+  <data name="DelayAfter" xml:space="preserve">
+    <value>延迟之后</value>
+  </data>
+  <data name="DelayAfterPrerequire" xml:space="preserve">
+    <value>设定预先要求后延迟</value>
+  </data>
+  <data name="DelayAfterPrerquireNone" xml:space="preserve">
+    <value>在测试线上将预先设置为NONE后延迟</value>
+  </data>
+  <data name="DelayBeforeCheckingCanForward" xml:space="preserve">
+    <value>检查CAN前进之前的延迟</value>
+  </data>
+  <data name="DelayBeforeTestingMessage" xml:space="preserve">
+    <value>测试消息之前的延迟</value>
+  </data>
+  <data name="DelayBetweenSetAndResultOf" xml:space="preserve">
+    <value>设定与结果之间的延迟</value>
+  </data>
+  <data name="DelayBetweenStopCapture" xml:space="preserve">
+    <value>停止捕获之间的延迟</value>
+  </data>
+  <data name="DelayForCaptureMaxOf" xml:space="preserve">
+    <value>延迟捕获MAX</value>
+  </data>
+  <data name="DelayForOdometer" xml:space="preserve">
+    <value>里程表的延迟</value>
+  </data>
+  <data name="DelayForOverloadCaptureAfter" xml:space="preserve">
+    <value>延迟过载捕获后</value>
+  </data>
+  <data name="DelayOf" xml:space="preserve">
+    <value>延迟</value>
+  </data>
+  <data name="DelaySartCapture" xml:space="preserve">
+    <value>延迟开始捕获</value>
+  </data>
+  <data name="DelayWiperInterval" xml:space="preserve">
+    <value>延迟WIPER_INTERVAL</value>
+  </data>
+  <data name="DelayWiperWash" xml:space="preserve">
+    <value>延迟WIPER_WASH</value>
+  </data>
+  <data name="DelayWiperWashBeforeGettingResult" xml:space="preserve">
+    <value>在获得结果之前延迟WIPER_WASH</value>
+  </data>
+  <data name="DoYou" xml:space="preserve">
+    <value>你呢</value>
+  </data>
+  <data name="ErrorInChannelID" xml:space="preserve">
+    <value>通道ID出错</value>
+  </data>
+  <data name="ErrorTheVoltageSetIsTooHigh" xml:space="preserve">
+    <value>错误电压设置太高</value>
+  </data>
+  <data name="ErrorWithCanSender" xml:space="preserve">
+    <value>can sender错误</value>
+  </data>
+  <data name="ForwaredCheckError" xml:space="preserve">
+    <value>forwared检查错误</value>
+  </data>
+  <data name="Hear" xml:space="preserve">
+    <value>听</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>马克斯</value>
+  </data>
+  <data name="NoBoardFoundForThisChannel" xml:space="preserve">
+    <value>找不到此频道的电路板</value>
+  </data>
+  <data name="PleaseCheckTheCluster" xml:space="preserve">
+    <value>请检查群集</value>
+  </data>
+  <data name="PleaseCheckTheClusterTimeAndCompareItWith" xml:space="preserve">
+    <value>请检查群集时间并与之进行比较</value>
+  </data>
+  <data name="PleaseCheckTheClusterTimeAndCompareItWithYourWatch" xml:space="preserve">
+    <value>请检查群集时间并将其与手表进行比较</value>
+  </data>
+  <data name="PsuAction" xml:space="preserve">
+    <value>Psu行动</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>评分</value>
+  </data>
+  <data name="ReceiveCanForward" xml:space="preserve">
+    <value>接收CAN转发</value>
+  </data>
+  <data name="ResultOf" xml:space="preserve">
+    <value>的结果</value>
+  </data>
+  <data name="See" xml:space="preserve">
+    <value>看到</value>
+  </data>
+  <data name="SendDefaultCanLoop" xml:space="preserve">
+    <value>发送默认CanLoop</value>
+  </data>
+  <data name="SendDM1Data1FrameForTest" xml:space="preserve">
+    <value>发送DM1 Data1帧进行测试</value>
+  </data>
+  <data name="SendDM1Data2FrameForTest" xml:space="preserve">
+    <value>发送DM1 Data2帧进行测试</value>
+  </data>
+  <data name="SendDM1FrameForTest" xml:space="preserve">
+    <value>发送DM1帧进行测试</value>
+  </data>
+  <data name="SendDM1HeaderFrameForTest" xml:space="preserve">
+    <value>发送DM1标题帧进行测试</value>
+  </data>
+  <data name="SetChannel" xml:space="preserve">
+    <value>设置频道</value>
+  </data>
+  <data name="SetDefaultValueFor" xml:space="preserve">
+    <value>设置默认值</value>
+  </data>
+  <data name="SetWiper" xml:space="preserve">
+    <value>设置刮水器</value>
+  </data>
+  <data name="Signal" xml:space="preserve">
+    <value>信号</value>
+  </data>
+  <data name="START" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="StartCanLoop" xml:space="preserve">
+    <value>启动CanLoop</value>
+  </data>
+  <data name="StartDefaultCanLoop" xml:space="preserve">
+    <value>启动默认CanLoop</value>
+  </data>
+  <data name="STOP" xml:space="preserve">
+    <value>停</value>
+  </data>
+  <data name="StopCanLoop" xml:space="preserve">
+    <value>停止CanLoop</value>
+  </data>
+  <data name="StopDefaultCanLoop" xml:space="preserve">
+    <value>停止默认CanLoop</value>
+  </data>
+  <data name="TestCanSenderSignal" xml:space="preserve">
+    <value>测试可以发送信号</value>
+  </data>
+  <data name="TheMessageHasNotBeenAssociatedToOneCanChannel" xml:space="preserve">
+    <value>该消息尚未与一个CAN通道关联</value>
+  </data>
+  <data name="TheMessageHasNotBeenAssociatedToOneCanChannelInSheet" xml:space="preserve">
+    <value>该消息尚未与表单中的一个CAN通道关联</value>
+  </data>
+  <data name="ThisRessourcesIsNotAvailableInYourProject" xml:space="preserve">
+    <value>您的项目中没有此资源</value>
+  </data>
+  <data name="With" xml:space="preserve">
+    <value>同</value>
+  </data>
+  <data name="WrongValueInSheet" xml:space="preserve">
+    <value>工作表中的错误值</value>
+  </data>
+  <data name="YouShouldSee" xml:space="preserve">
+    <value>你应该看到</value>
+  </data>
+  <data name="YouShouldSeeThisLed" xml:space="preserve">
+    <value>你应该看到这个Led</value>
+  </data>
+  <data name="YouShouldSeeThisSymbol" xml:space="preserve">
+    <value>你应该看到这个符号</value>
+  </data>
+  <data name="AtRow" xml:space="preserve">
+    <value>在一排</value>
+  </data>
+  <data name="DelayBeforeStartCapture" xml:space="preserve">
+    <value>开始捕获前的延迟</value>
+  </data>
+  <data name="ResetDM1Data1FrameForTest" xml:space="preserve">
+    <value>重置DM1 Data1帧进行测试</value>
+  </data>
+  <data name="ResetDM1Data2FrameForTest" xml:space="preserve">
+    <value>重置DM1 Data2帧进行测试</value>
+  </data>
+  <data name="ResetDM1FrameForTest" xml:space="preserve">
+    <value>重置DM1帧进行测试</value>
+  </data>
+  <data name="ResetDM1HeaderFrameForTest" xml:space="preserve">
+    <value>重置DM1标题帧进行测试</value>
+  </data>
+  <data name="OpenResistiveChannels" xml:space="preserve">
+    <value>打开电阻通道</value>
+  </data>
+  <data name="DelayResetPrerequire" xml:space="preserve">
+    <value>在测试线上重置预置后延迟</value>
+  </data>
+  <data name="ConditionCannotBeTestedManually" xml:space="preserve">
+    <value>由于高阻抗范围，无法测试这种情况</value>
+  </data>
+  <data name="PleaseTestItManually" xml:space="preserve">
+    <value>请手动测试</value>
+  </data>
+  <data name="YouShould" xml:space="preserve">
+    <value>你应该</value>
+  </data>
+  <data name="YouShouldNot" xml:space="preserve">
+    <value>你不应该</value>
+  </data>
+</root>

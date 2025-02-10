@@ -1,0 +1,4 @@
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation.Parser\obj\Debug\ArtLogics.Translation.Parser.csproj.AssemblyReference.cache
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation.Parser\obj\Debug\ArtLogics.Translation.Parser.Properties.Resources.resources
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation.Parser\obj\Debug\ArtLogics.Translation.Parser.csproj.GenerateResource.cache
+C:\10CODE\ALTS_V4\Tools\TRANSLATION_SOFTWARE\ArtLogics.Translation.Parser\obj\Debug\ArtLogics.Translation.Parser.csproj.CoreCompileInputs.cache
